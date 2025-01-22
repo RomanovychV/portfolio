@@ -90,9 +90,11 @@ function test() {
 					activeBack();
 
 				} else {
-					btnNext.text("Выберете ответ");
+					btnNext.text("Choose an answer");
+					// btnNext.text("Выберете ответ");
 					setTimeout(function () {
-						btnNext.text("Следующий вопрос");
+						btnNext.text("Next question");
+						// btnNext.text("Следующий вопрос");
 					}, 2000)
 
 				}
