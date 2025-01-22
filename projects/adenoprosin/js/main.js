@@ -45,7 +45,7 @@ function test() {
 
 
 
-	$.getJSON("/json/test.json", function (data) {
+	$.getJSON("./json/test.json", function (data) {
 		testHandler(data)
 	});
 
