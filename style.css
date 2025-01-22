@@ -1,85 +1,13 @@
 html, body {
-	margin: 0;
-	padding: 0;
-	background-color: #2b2b2d;
+
 }
+
 * {
 	box-sizing: border-box;
 }
+
 .wrapper {
 	width: 100%;
-	
 	font-family: 'Roboto', sans-serif;
 }
 
-.container {
-	padding: 15px;
-	padding-bottom: 80px;
-	height: 100vh;
-}
-
-.center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 80vh;
-	width: 100%;
-}
-
-.vitlike-title {
-	font-size: 120px;
-	line-height: 1;
-	color: #fff;
-	font-weight: 900;
-}
-
-@media (max-width: 480px) {
-	.vitlike-title {
-		font-size: 80px;
-	}
-}
-
-.works-list {
-	width: 100%;
-
-}
-
-.works-list ul {
-	list-style: none;
-	display: flex;
-	flex-flow: wrap;
-	padding: 0;
-	margin: 0;
-
-}
-
-.works-list li {
-
-	list-style: none;
-	margin: 1px;
-}
-
-.works-list a {
-	display: block;
-	padding: 10px;
-	border: 1px solid #fff;
-	color: #fff;
-	text-decoration: none;
-	font-size: 18px;
-
-}
-
-.works-list a:hover {
-	color: #2b2b2d;
-	background-color: #fff;
-
-}
-
-.works-list a:visited {
-	color: #b0b0b0;
-
-}
-.main-link {
-	color: #fff;
-	text-decoration: none;
-}
